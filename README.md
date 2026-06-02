@@ -2,6 +2,10 @@
 
 CordCloud (cordc.net) 每日自动签到 Agent Skill —— 一键安装，自动登录 + 2FA 验证 + 每日打卡。
 
+<p align="center">
+  <a href="README.md">简体中文</a> | <a href="README_EN.md">English</a>
+</p>
+
 ## 功能特性
 
 - 每日自动签到（按钮点击 + API 备选）
@@ -33,7 +37,7 @@ git clone https://github.com/hankchn/checkin-cordcloud.git ~/.codebuddy/skills/c
 ## 初始化
 
 ```bash
-cd ~/.codebuddy/skills/cordcloud-checkin/scripts
+cd ~/.codebuddy/skills/checkin-cordcloud/scripts
 
 # 安装依赖
 npm install
@@ -58,7 +62,8 @@ node checkin.js --init
 ```
 checkin-cordcloud/
 ├── SKILL.md                        # Skill 定义（Agent 自动读取）
-├── README.md                       # 说明文档
+├── README.md                       # 说明文档（中文）
+├── README_EN.md                    # 说明文档（English）
 ├── .gitignore                      # Git 排除规则
 ├── references/
 │   ├── config-guide.md             # 配置详细说明
