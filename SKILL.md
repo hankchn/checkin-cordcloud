@@ -1,5 +1,5 @@
 ---
-name: auto-checkin-cordcloud
+name: checkin-cordcloud
 description: CordCloud (cordc.net) 每日自动签到 skill。当用户要求执行 CordCloud 签到、配置 CordCloud 签到定时任务、初始化 CordCloud 登录、或排查签到失败问题时，应使用此 skill。此 skill 通过 Playwright 浏览器自动化完成登录（含 2FA 邮箱验证码）和每日签到打卡，支持 Cookie 持久化和防重复签到。
 ---
 
