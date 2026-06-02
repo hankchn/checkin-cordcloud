@@ -1,0 +1,12 @@
+# 敏感文件
+scripts/config.json
+scripts/cookies.json
+
+# 运行时数据
+scripts/browser-data/
+scripts/screenshots/
+scripts/.checkin-lock
+
+# Node
+scripts/node_modules/
+scripts/package-lock.json
